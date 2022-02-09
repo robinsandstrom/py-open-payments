@@ -1124,7 +1124,7 @@ class ConsentServiceApi(object):
                  If the method is called asynchronously,
                  returns the request thread.
         """
-        kwargs['_return_http_data_only'] = True
+        kwargs['_return_http_data_only'] = False
         if kwargs.get('async_req'):
             return self.start_consent_authorisation_with_http_info(x_request_id, x_bic_fi, consent_id, **kwargs)  # noqa: E501
         else:
@@ -1328,7 +1328,7 @@ class ConsentServiceApi(object):
                  If the method is called asynchronously,
                  returns the request thread.
         """
-        kwargs['_return_http_data_only'] = True
+        kwargs['_return_http_data_only'] = False
         if kwargs.get('async_req'):
             return self.update_consents_psu_data_with_http_info(x_request_id, x_bic_fi, consent_id, authorisation_id, **kwargs)  # noqa: E501
         else:
