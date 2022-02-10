@@ -104,7 +104,7 @@ class AccountInformationServiceAISApi(object):
                  returns the request thread.
         """
 
-        all_params = ['x_request_id', 'x_bic_fi', 'consent_id', 'with_balance', 'digest', 'signature', 'tpp_signature_certificate', 'psu_ip_address', 'psu_ip_port', 'psu_accept', 'tpp_redirect_preferred', 'psu_accept_charset', 'psu_accept_encoding', 'psu_accept_language', 'psu_user_agent', 'psu_http_method', 'psu_device_id', 'psu_geo_location', 'psu_corporate_id']'  # noqa: E501
+        all_params = ['x_request_id', 'x_bic_fi', 'consent_id', 'with_balance', 'digest', 'signature', 'tpp_signature_certificate', 'psu_ip_address', 'psu_ip_port', 'psu_accept', 'tpp_redirect_preferred', 'psu_accept_charset', 'psu_accept_encoding', 'psu_accept_language', 'psu_user_agent', 'psu_http_method', 'psu_device_id', 'psu_geo_location', 'psu_corporate_id']  # noqa: E501
         all_params.append('async_req')
         all_params.append('_return_http_data_only')
         all_params.append('_preload_content')
@@ -174,7 +174,7 @@ class AccountInformationServiceAISApi(object):
         if 'psu_device_id' in params:
             header_params['PSU-Device-ID'] = params['psu_device_id']  # noqa: E501
         if 'psu_geo_location' in params:
-            header_params['PSU-Geo-Location'] = params['psu_geo_location', 'psu_corporate_id']'  # noqa: E501
+            header_params['PSU-Geo-Location'] = params['psu_geo_location', 'psu_corporate_id']  # noqa: E501
         if 'psu_corporate_id' in params:
             header_params['PSU-Corporate-ID'] = params['psu_corporate_id']  # noqa: E501
 
@@ -277,7 +277,7 @@ class AccountInformationServiceAISApi(object):
                  returns the request thread.
         """
 
-        all_params = ['account_id', 'x_request_id', 'x_bic_fi', 'consent_id', 'digest', 'signature', 'tpp_signature_certificate', 'psu_ip_address', 'psu_ip_port', 'tpp_redirect_preferred', 'psu_accept', 'psu_accept_charset', 'psu_accept_encoding', 'psu_accept_language', 'psu_user_agent', 'psu_http_method', 'psu_device_id', 'psu_geo_location', 'psu_corporate_id']'  # noqa: E501
+        all_params = ['account_id', 'x_request_id', 'x_bic_fi', 'consent_id', 'digest', 'signature', 'tpp_signature_certificate', 'psu_ip_address', 'psu_ip_port', 'tpp_redirect_preferred', 'psu_accept', 'psu_accept_charset', 'psu_accept_encoding', 'psu_accept_language', 'psu_user_agent', 'psu_http_method', 'psu_device_id', 'psu_geo_location', 'psu_corporate_id']  # noqa: E501
         all_params.append('async_req')
         all_params.append('_return_http_data_only')
         all_params.append('_preload_content')
@@ -351,7 +351,7 @@ class AccountInformationServiceAISApi(object):
         if 'psu_device_id' in params:
             header_params['PSU-Device-ID'] = params['psu_device_id']  # noqa: E501
         if 'psu_geo_location' in params:
-            header_params['PSU-Geo-Location'] = params['psu_geo_location', 'psu_corporate_id']'  # noqa: E501
+            header_params['PSU-Geo-Location'] = params['psu_geo_location', 'psu_corporate_id']  # noqa: E501
         if 'psu_corporate_id' in params:
             header_params['PSU-Corporate-ID'] = params['psu_corporate_id']  # noqa: E501
 
@@ -456,7 +456,7 @@ class AccountInformationServiceAISApi(object):
                  returns the request thread.
         """
 
-        all_params = ['account_id', 'transaction_id', 'x_request_id', 'x_bic_fi', 'consent_id', 'digest', 'signature', 'tpp_signature_certificate', 'psu_ip_address', 'psu_ip_port', 'tpp_redirect_preferred', 'psu_accept', 'psu_accept_charset', 'psu_accept_encoding', 'psu_accept_language', 'psu_user_agent', 'psu_http_method', 'psu_device_id', 'psu_geo_location', 'psu_corporate_id']'  # noqa: E501
+        all_params = ['account_id', 'transaction_id', 'x_request_id', 'x_bic_fi', 'consent_id', 'digest', 'signature', 'tpp_signature_certificate', 'psu_ip_address', 'psu_ip_port', 'tpp_redirect_preferred', 'psu_accept', 'psu_accept_charset', 'psu_accept_encoding', 'psu_accept_language', 'psu_user_agent', 'psu_http_method', 'psu_device_id', 'psu_geo_location', 'psu_corporate_id']  # noqa: E501
         all_params.append('async_req')
         all_params.append('_return_http_data_only')
         all_params.append('_preload_content')
@@ -536,7 +536,7 @@ class AccountInformationServiceAISApi(object):
         if 'psu_device_id' in params:
             header_params['PSU-Device-ID'] = params['psu_device_id']  # noqa: E501
         if 'psu_geo_location' in params:
-            header_params['PSU-Geo-Location'] = params['psu_geo_location', 'psu_corporate_id']'  # noqa: E501
+            header_params['PSU-Geo-Location'] = params['psu_geo_location', 'psu_corporate_id']  # noqa: E501
         if 'psu_corporate_id' in params:
             header_params['PSU-Corporate-ID'] = params['psu_corporate_id']  # noqa: E501
 
@@ -651,7 +651,7 @@ class AccountInformationServiceAISApi(object):
                  returns the request thread.
         """
 
-        all_params = ['account_id', 'booking_status', 'x_request_id', 'x_bic_fi', 'consent_id', 'date_from', 'date_to', 'entry_reference_from', 'delta_list', 'with_balance', 'digest', 'signature', 'tpp_signature_certificate', 'psu_ip_address', 'psu_ip_port', 'tpp_redirect_preferred', 'psu_accept', 'psu_accept_charset', 'psu_accept_encoding', 'psu_accept_language', 'psu_user_agent', 'psu_http_method', 'psu_device_id', 'psu_geo_location', 'psu_corporate_id']'  # noqa: E501
+        all_params = ['account_id', 'booking_status', 'x_request_id', 'x_bic_fi', 'consent_id', 'date_from', 'date_to', 'entry_reference_from', 'delta_list', 'with_balance', 'digest', 'signature', 'tpp_signature_certificate', 'psu_ip_address', 'psu_ip_port', 'tpp_redirect_preferred', 'psu_accept', 'psu_accept_charset', 'psu_accept_encoding', 'psu_accept_language', 'psu_user_agent', 'psu_http_method', 'psu_device_id', 'psu_geo_location', 'psu_corporate_id']  # noqa: E501
         all_params.append('async_req')
         all_params.append('_return_http_data_only')
         all_params.append('_preload_content')
@@ -741,7 +741,7 @@ class AccountInformationServiceAISApi(object):
         if 'psu_device_id' in params:
             header_params['PSU-Device-ID'] = params['psu_device_id']  # noqa: E501
         if 'psu_geo_location' in params:
-            header_params['PSU-Geo-Location'] = params['psu_geo_location', 'psu_corporate_id']'  # noqa: E501
+            header_params['PSU-Geo-Location'] = params['psu_geo_location', 'psu_corporate_id']  # noqa: E501
         if 'psu_corporate_id' in params:
             header_params['PSU-Corporate-ID'] = params['psu_corporate_id']  # noqa: E501
 
@@ -846,7 +846,7 @@ class AccountInformationServiceAISApi(object):
                  returns the request thread.
         """
 
-        all_params = ['account_id', 'x_request_id', 'x_bic_fi', 'consent_id', 'with_balance', 'digest', 'signature', 'tpp_signature_certificate', 'psu_ip_address', 'psu_ip_port', 'tpp_redirect_preferred', 'psu_accept', 'psu_accept_charset', 'psu_accept_encoding', 'psu_accept_language', 'psu_user_agent', 'psu_http_method', 'psu_device_id', 'psu_geo_location', 'psu_corporate_id']'  # noqa: E501
+        all_params = ['account_id', 'x_request_id', 'x_bic_fi', 'consent_id', 'with_balance', 'digest', 'signature', 'tpp_signature_certificate', 'psu_ip_address', 'psu_ip_port', 'tpp_redirect_preferred', 'psu_accept', 'psu_accept_charset', 'psu_accept_encoding', 'psu_accept_language', 'psu_user_agent', 'psu_http_method', 'psu_device_id', 'psu_geo_location', 'psu_corporate_id']  # noqa: E501
         all_params.append('async_req')
         all_params.append('_return_http_data_only')
         all_params.append('_preload_content')
@@ -922,7 +922,7 @@ class AccountInformationServiceAISApi(object):
         if 'psu_device_id' in params:
             header_params['PSU-Device-ID'] = params['psu_device_id']  # noqa: E501
         if 'psu_geo_location' in params:
-            header_params['PSU-Geo-Location'] = params['psu_geo_location', 'psu_corporate_id']'  # noqa: E501
+            header_params['PSU-Geo-Location'] = params['psu_geo_location', 'psu_corporate_id']  # noqa: E501
         if 'psu_corporate_id' in params:
             header_params['PSU-Corporate-ID'] = params['psu_corporate_id']  # noqa: E501
 
