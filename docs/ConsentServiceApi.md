@@ -4,14 +4,14 @@ All URIs are relative to *https://api.sandbox.openbankingplatform.com/psd2*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**create_consent**](ConsentServiceApi.md#create_consent) | **POST** /consent/v1/consents | Create Consent
-[**delete_consent**](ConsentServiceApi.md#delete_consent) | **DELETE** /consent/v1/consents/{consentId} | Delete Consent
-[**get_consent_authorisation**](ConsentServiceApi.md#get_consent_authorisation) | **GET** /consent/v1/consents/{consentId}/authorisations | Get Consent Authorisation Sub-Resources
-[**get_consent_information**](ConsentServiceApi.md#get_consent_information) | **GET** /consent/v1/consents/{consentId} | Get Consent
-[**get_consent_sca_status**](ConsentServiceApi.md#get_consent_sca_status) | **GET** /consent/v1/consents/{consentId}/authorisations/{authorisationId} | Get Consent Authorisation SCA Status
-[**get_consent_status**](ConsentServiceApi.md#get_consent_status) | **GET** /consent/v1/consents/{consentId}/status | Get Consent Status
-[**start_consent_authorisation**](ConsentServiceApi.md#start_consent_authorisation) | **POST** /consent/v1/consents/{consentId}/authorisations | Start Consent Authorisation Process
-[**update_consents_psu_data**](ConsentServiceApi.md#update_consents_psu_data) | **PUT** /consent/v1/consents/{consentId}/authorisations/{authorisationId} | Update PSU Data for Consent
+[**create_consent**](ConsentServiceApi.md#create_consent) | **POST** /consent/v2/consents | Create Consent
+[**delete_consent**](ConsentServiceApi.md#delete_consent) | **DELETE** /consent/v2/consents/{consentId} | Delete Consent
+[**get_consent_authorisation**](ConsentServiceApi.md#get_consent_authorisation) | **GET** /consent/v2/consents/{consentId}/authorisations | Get Consent Authorisation Sub-Resources
+[**get_consent_information**](ConsentServiceApi.md#get_consent_information) | **GET** /consent/v2/consents/{consentId} | Get Consent
+[**get_consent_sca_status**](ConsentServiceApi.md#get_consent_sca_status) | **GET** /consent/v2/consents/{consentId}/authorisations/{authorisationId} | Get Consent Authorisation SCA Status
+[**get_consent_status**](ConsentServiceApi.md#get_consent_status) | **GET** /consent/v2/consents/{consentId}/status | Get Consent Status
+[**start_consent_authorisation**](ConsentServiceApi.md#start_consent_authorisation) | **POST** /consent/v2/consents/{consentId}/authorisations | Start Consent Authorisation Process
+[**update_consents_psu_data**](ConsentServiceApi.md#update_consents_psu_data) | **PUT** /consent/v2/consents/{consentId}/authorisations/{authorisationId} | Update PSU Data for Consent
 
 # **create_consent**
 > ConsentsResponse201 create_consent(x_request_id, x_bic_fi, body=body, x_affiliated_aspsp_id=x_affiliated_aspsp_id, digest=digest, signature=signature, tpp_signature_certificate=tpp_signature_certificate, psu_id=psu_id, psu_id_type=psu_id_type, psu_corporate_id=psu_corporate_id, psu_corporate_id_type=psu_corporate_id_type, tpp_redirect_preferred=tpp_redirect_preferred, tpp_redirect_uri=tpp_redirect_uri, tpp_nok_redirect_uri=tpp_nok_redirect_uri, tpp_explicit_authorisation_preferred=tpp_explicit_authorisation_preferred, tpp_notification_uri=tpp_notification_uri, tpp_notification_content_preferred=tpp_notification_content_preferred, psu_ip_address=psu_ip_address, psu_ip_port=psu_ip_port, psu_accept=psu_accept, psu_accept_charset=psu_accept_charset, psu_accept_encoding=psu_accept_encoding, psu_accept_language=psu_accept_language, psu_user_agent=psu_user_agent, psu_http_method=psu_http_method, psu_device_id=psu_device_id, psu_geo_location=psu_geo_location)

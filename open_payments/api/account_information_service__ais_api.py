@@ -190,7 +190,7 @@ class AccountInformationServiceAISApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/accountinformation/v1/accounts', 'GET',
+            '/accountinformation/v2/accounts', 'GET',
             path_params,
             query_params,
             header_params,
@@ -367,7 +367,7 @@ class AccountInformationServiceAISApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/accountinformation/v1/accounts/{account-id}/balances', 'GET',
+            '/accountinformation/v2/accounts/{account-id}/balances', 'GET',
             path_params,
             query_params,
             header_params,
@@ -552,7 +552,7 @@ class AccountInformationServiceAISApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/accountinformation/v1/accounts/{account-id}/transactions/{transactionId}', 'GET',
+            '/accountinformation/v2/accounts/{account-id}/transactions/{transactionId}', 'GET',
             path_params,
             query_params,
             header_params,
@@ -757,7 +757,7 @@ class AccountInformationServiceAISApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/accountinformation/v1/accounts/{account-id}/transactions', 'GET',
+            '/accountinformation/v2/accounts/{account-id}/transactions', 'GET',
             path_params,
             query_params,
             header_params,
@@ -938,7 +938,7 @@ class AccountInformationServiceAISApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/accountinformation/v1/accounts/{account-id}', 'GET',
+            '/accountinformation/v2/accounts/{account-id}', 'GET',
             path_params,
             query_params,
             header_params,

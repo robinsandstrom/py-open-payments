@@ -4,11 +4,11 @@ All URIs are relative to *https://api.sandbox.openbankingplatform.com/psd2*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**get_account_list**](AccountInformationServiceAISApi.md#get_account_list) | **GET** /accountinformation/v1/accounts | Get Account List
-[**get_balances**](AccountInformationServiceAISApi.md#get_balances) | **GET** /accountinformation/v1/accounts/{account-id}/balances | Get Balances
-[**get_transaction_details**](AccountInformationServiceAISApi.md#get_transaction_details) | **GET** /accountinformation/v1/accounts/{account-id}/transactions/{transactionId} | Get Transaction Details
-[**get_transaction_list**](AccountInformationServiceAISApi.md#get_transaction_list) | **GET** /accountinformation/v1/accounts/{account-id}/transactions | Get Transaction List
-[**read_account_details**](AccountInformationServiceAISApi.md#read_account_details) | **GET** /accountinformation/v1/accounts/{account-id} | Get Account Details
+[**get_account_list**](AccountInformationServiceAISApi.md#get_account_list) | **GET** /accountinformation/v2/accounts | Get Account List
+[**get_balances**](AccountInformationServiceAISApi.md#get_balances) | **GET** /accountinformation/v2/accounts/{account-id}/balances | Get Balances
+[**get_transaction_details**](AccountInformationServiceAISApi.md#get_transaction_details) | **GET** /accountinformation/v2/accounts/{account-id}/transactions/{transactionId} | Get Transaction Details
+[**get_transaction_list**](AccountInformationServiceAISApi.md#get_transaction_list) | **GET** /accountinformation/v2/accounts/{account-id}/transactions | Get Transaction List
+[**read_account_details**](AccountInformationServiceAISApi.md#read_account_details) | **GET** /accountinformation/v2/accounts/{account-id} | Get Account Details
 
 # **get_account_list**
 > AccountList get_account_list(x_request_id, x_bic_fi, consent_id, with_balance=with_balance, digest=digest, signature=signature, tpp_signature_certificate=tpp_signature_certificate, psu_ip_address=psu_ip_address, psu_ip_port=psu_ip_port, psu_accept=psu_accept, tpp_redirect_preferred=tpp_redirect_preferred, psu_accept_charset=psu_accept_charset, psu_accept_encoding=psu_accept_encoding, psu_accept_language=psu_accept_language, psu_user_agent=psu_user_agent, psu_http_method=psu_http_method, psu_device_id=psu_device_id, psu_geo_location=psu_geo_location)

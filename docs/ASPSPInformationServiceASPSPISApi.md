@@ -4,12 +4,12 @@ All URIs are relative to *https://api.sandbox.openbankingplatform.com/psd2*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**get_aspsp_details**](ASPSPInformationServiceASPSPISApi.md#get_aspsp_details) | **GET** /aspspinformation/v1/aspsps/{bicFi} | Get ASPSP Details
-[**get_aspsp_list**](ASPSPInformationServiceASPSPISApi.md#get_aspsp_list) | **GET** /aspspinformation/v1/aspsps | Get ASPSP List
-[**get_city_details**](ASPSPInformationServiceASPSPISApi.md#get_city_details) | **GET** /aspspinformation/v1/cities/{city-id} | Get City Details
-[**get_city_list**](ASPSPInformationServiceASPSPISApi.md#get_city_list) | **GET** /aspspinformation/v1/cities | Get City List
-[**get_countries_list**](ASPSPInformationServiceASPSPISApi.md#get_countries_list) | **GET** /aspspinformation/v1/countries | Get Country List
-[**get_country_details**](ASPSPInformationServiceASPSPISApi.md#get_country_details) | **GET** /aspspinformation/v1/countries/{isoCountryCode} | Get Country Details
+[**get_aspsp_details**](ASPSPInformationServiceASPSPISApi.md#get_aspsp_details) | **GET** /aspspinformation/v2/aspsps/{bicFi} | Get ASPSP Details
+[**get_aspsp_list**](ASPSPInformationServiceASPSPISApi.md#get_aspsp_list) | **GET** /aspspinformation/v2/aspsps | Get ASPSP List
+[**get_city_details**](ASPSPInformationServiceASPSPISApi.md#get_city_details) | **GET** /aspspinformation/v2/cities/{city-id} | Get City Details
+[**get_city_list**](ASPSPInformationServiceASPSPISApi.md#get_city_list) | **GET** /aspspinformation/v2/cities | Get City List
+[**get_countries_list**](ASPSPInformationServiceASPSPISApi.md#get_countries_list) | **GET** /aspspinformation/v2/countries | Get Country List
+[**get_country_details**](ASPSPInformationServiceASPSPISApi.md#get_country_details) | **GET** /aspspinformation/v2/countries/{isoCountryCode} | Get Country Details
 
 # **get_aspsp_details**
 > Aspsp get_aspsp_details(bic_fi, x_request_id, digest=digest, signature=signature, tpp_signature_certificate=tpp_signature_certificate)

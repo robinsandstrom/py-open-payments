@@ -47,6 +47,9 @@ class Configuration(six.with_metaclass(TypeWithDefault, object)):
         """Constructor"""
         # Default Base url
         self.host = "https://api.sandbox.openbankingplatform.com/psd2"
+
+        self.version = 'v1'
+
         # Temp file folder for downloading files
         self.temp_folder_path = None
 

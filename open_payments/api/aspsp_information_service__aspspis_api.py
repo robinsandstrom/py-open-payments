@@ -132,7 +132,7 @@ class ASPSPInformationServiceASPSPISApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/aspspinformation/v1/aspsps/{bicFi}', 'GET',
+            '/aspspinformation/v2/aspsps/{bicFi}', 'GET',
             path_params,
             query_params,
             header_params,
@@ -247,7 +247,7 @@ class ASPSPInformationServiceASPSPISApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/aspspinformation/v1/aspsps', 'GET',
+            '/aspspinformation/v2/aspsps', 'GET',
             path_params,
             query_params,
             header_params,
@@ -362,7 +362,7 @@ class ASPSPInformationServiceASPSPISApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/aspspinformation/v1/cities/{city-id}', 'GET',
+            '/aspspinformation/v2/cities/{city-id}', 'GET',
             path_params,
             query_params,
             header_params,
@@ -477,7 +477,7 @@ class ASPSPInformationServiceASPSPISApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/aspspinformation/v1/cities', 'GET',
+            '/aspspinformation/v2/cities', 'GET',
             path_params,
             query_params,
             header_params,
@@ -588,7 +588,7 @@ class ASPSPInformationServiceASPSPISApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/aspspinformation/v1/countries', 'GET',
+            '/aspspinformation/v2/countries', 'GET',
             path_params,
             query_params,
             header_params,
@@ -703,7 +703,7 @@ class ASPSPInformationServiceASPSPISApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/aspspinformation/v1/countries/{isoCountryCode}', 'GET',
+            '/aspspinformation/v2/countries/{isoCountryCode}', 'GET',
             path_params,
             query_params,
             header_params,

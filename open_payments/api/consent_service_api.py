@@ -226,7 +226,7 @@ class ConsentServiceApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/consent/v1/consents', 'POST',
+            '/consent/v2/consents', 'POST',
             path_params,
             query_params,
             header_params,
@@ -393,7 +393,7 @@ class ConsentServiceApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/consent/v1/consents/{consentId}', 'DELETE',
+            '/consent/v2/consents/{consentId}', 'DELETE',
             path_params,
             query_params,
             header_params,
@@ -560,7 +560,7 @@ class ConsentServiceApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/consent/v1/consents/{consentId}/authorisations', 'GET',
+            '/consent/v2/consents/{consentId}/authorisations', 'GET',
             path_params,
             query_params,
             header_params,
@@ -727,7 +727,7 @@ class ConsentServiceApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/consent/v1/consents/{consentId}', 'GET',
+            '/consent/v2/consents/{consentId}', 'GET',
             path_params,
             query_params,
             header_params,
@@ -904,7 +904,7 @@ class ConsentServiceApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/consent/v1/consents/{consentId}/authorisations/{authorisationId}', 'GET',
+            '/consent/v2/consents/{consentId}/authorisations/{authorisationId}', 'GET',
             path_params,
             query_params,
             header_params,
@@ -1071,7 +1071,7 @@ class ConsentServiceApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/consent/v1/consents/{consentId}/status', 'GET',
+            '/consent/v2/consents/{consentId}/status', 'GET',
             path_params,
             query_params,
             header_params,
@@ -1278,7 +1278,7 @@ class ConsentServiceApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/consent/v1/consents/{consentId}/authorisations', 'POST',
+            '/consent/v2/consents/{consentId}/authorisations', 'POST',
             path_params,
             query_params,
             header_params,
@@ -1477,7 +1477,7 @@ class ConsentServiceApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/consent/v1/consents/{consentId}/authorisations/{authorisationId}', 'PUT',
+            '/consent/v2/consents/{consentId}/authorisations/{authorisationId}', 'PUT',
             path_params,
             query_params,
             header_params,

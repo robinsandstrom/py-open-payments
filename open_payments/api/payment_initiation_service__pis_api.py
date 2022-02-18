@@ -200,7 +200,7 @@ class PaymentInitiationServicePISApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/paymentinitiation/v1/{payment-service}/{payment-product}/{paymentId}', 'DELETE',
+            '/paymentinitiation/v2/{payment-service}/{payment-product}/{paymentId}', 'DELETE',
             path_params,
             query_params,
             header_params,
@@ -391,7 +391,7 @@ class PaymentInitiationServicePISApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/paymentinitiation/v1/{payment-service}/{payment-product}/{paymentId}/cancellation-authorisations/{cancellationId}', 'GET',
+            '/paymentinitiation/v2/{payment-service}/{payment-product}/{paymentId}/cancellation-authorisations/{cancellationId}', 'GET',
             path_params,
             query_params,
             header_params,
@@ -574,7 +574,7 @@ class PaymentInitiationServicePISApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/paymentinitiation/v1/{payment-service}/{payment-product}/{paymentId}', 'GET',
+            '/paymentinitiation/v2/{payment-service}/{payment-product}/{paymentId}', 'GET',
             path_params,
             query_params,
             header_params,
@@ -757,7 +757,7 @@ class PaymentInitiationServicePISApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/paymentinitiation/v1/{payment-service}/{payment-product}/{paymentId}/authorisations', 'GET',
+            '/paymentinitiation/v2/{payment-service}/{payment-product}/{paymentId}/authorisations', 'GET',
             path_params,
             query_params,
             header_params,
@@ -940,7 +940,7 @@ class PaymentInitiationServicePISApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/paymentinitiation/v1/{payment-service}/{payment-product}/{paymentId}/cancellation-authorisations', 'GET',
+            '/paymentinitiation/v2/{payment-service}/{payment-product}/{paymentId}/cancellation-authorisations', 'GET',
             path_params,
             query_params,
             header_params,
@@ -1131,7 +1131,7 @@ class PaymentInitiationServicePISApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/paymentinitiation/v1/{payment-service}/{payment-product}/{paymentId}/authorisations/{authorisationId}', 'GET',
+            '/paymentinitiation/v2/{payment-service}/{payment-product}/{paymentId}/authorisations/{authorisationId}', 'GET',
             path_params,
             query_params,
             header_params,
@@ -1314,7 +1314,7 @@ class PaymentInitiationServicePISApi(object):
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/paymentinitiation/v1/{payment-service}/{payment-product}/{paymentId}/status', 'GET',
+            '/paymentinitiation/v2/{payment-service}/{payment-product}/{paymentId}/status', 'GET',
             path_params,
             query_params,
             header_params,
@@ -1585,7 +1585,7 @@ All optional, conditional and predefined but not yet used fields are defined.
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/paymentinitiation/v1/{payment-service}/{payment-product}', 'POST',
+            '/paymentinitiation/v2/{payment-service}/{payment-product}', 'POST',
             path_params,
             query_params,
             header_params,
@@ -1856,7 +1856,7 @@ All optional, conditional and predefined but not yet used fields are defined.
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/paymentinitiation/v1/{payment-service}/{payment-product}', 'POST',
+            '/paymentinitiation/v2/{payment-service}/{payment-product}', 'POST',
             path_params,
             query_params,
             header_params,
@@ -2105,7 +2105,7 @@ All optional, conditional and predefined but not yet used fields are defined.
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/paymentinitiation/v1/{payment-service}/{payment-product}', 'POST',
+            '/paymentinitiation/v2/{payment-service}/{payment-product}', 'POST',
             path_params,
             query_params,
             header_params,
@@ -2328,7 +2328,7 @@ All optional, conditional and predefined but not yet used fields are defined.
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/paymentinitiation/v1/{payment-service}/{payment-product}/{paymentId}/authorisations', 'POST',
+            '/paymentinitiation/v2/{payment-service}/{payment-product}/{paymentId}/authorisations', 'POST',
             path_params,
             query_params,
             header_params,
@@ -2543,7 +2543,7 @@ All optional, conditional and predefined but not yet used fields are defined.
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/paymentinitiation/v1/{payment-service}/{payment-product}/{paymentId}/cancellation-authorisations', 'POST',
+            '/paymentinitiation/v2/{payment-service}/{payment-product}/{paymentId}/cancellation-authorisations', 'POST',
             path_params,
             query_params,
             header_params,
@@ -2758,7 +2758,7 @@ All optional, conditional and predefined but not yet used fields are defined.
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/paymentinitiation/v1/{payment-service}/{payment-product}/{paymentId}/cancellation-authorisations/{cancellationId}', 'PUT',
+            '/paymentinitiation/v2/{payment-service}/{payment-product}/{paymentId}/cancellation-authorisations/{cancellationId}', 'PUT',
             path_params,
             query_params,
             header_params,
@@ -2973,7 +2973,7 @@ All optional, conditional and predefined but not yet used fields are defined.
         auth_settings = ['oAuth2']  # noqa: E501
 
         return self.api_client.call_api(
-            '/paymentinitiation/v1/{payment-service}/{payment-product}/{paymentId}/authorisations/{authorisationId}', 'PUT',
+            '/paymentinitiation/v2/{payment-service}/{payment-product}/{paymentId}/authorisations/{authorisationId}', 'PUT',
             path_params,
             query_params,
             header_params,
